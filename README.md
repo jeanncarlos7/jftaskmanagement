@@ -18,7 +18,6 @@ Feito por: Jean Carlos e Felipe Torlai
 
 - [Listar Tarefas](#listar-tarefas) 
 - [Cadastrar Tarefa](#cadastrar-tarefa) 
-
 - [Apagar Tarefa](#apagar-tarefa) 
 - [Detalhar Tarefas](#detalhar-tarefas)
 - [Atualizar Tarefas](#atualizar-tarefas)
