@@ -1,4 +1,4 @@
-package br.com.fiap.budgetbuddy.model;
+package jftaskmanagement.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

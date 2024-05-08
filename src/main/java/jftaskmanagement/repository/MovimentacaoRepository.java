@@ -1,11 +1,11 @@
-package br.com.fiap.budgetbuddy.repository;
+package jftaskmanagement.repository;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import br.com.fiap.budgetbuddy.model.Movimentacao;
+import jftaskmanagement.model.Movimentacao;
 
 public interface MovimentacaoRepository extends JpaRepository<Movimentacao, Long> {
 

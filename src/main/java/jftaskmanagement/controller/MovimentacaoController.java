@@ -1,4 +1,4 @@
-package br.com.fiap.budgetbuddy.controller;
+package jftaskmanagement.controller;
 
 import static org.springframework.http.HttpStatus.CREATED;
 
@@ -23,8 +23,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.fiap.budgetbuddy.model.Movimentacao;
-import br.com.fiap.budgetbuddy.repository.MovimentacaoRepository;
+import jftaskmanagement.model.Movimentacao;
+import jftaskmanagement.repository.MovimentacaoRepository;
 import jakarta.validation.Valid;
 
 @RestController

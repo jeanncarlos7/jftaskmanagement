@@ -1,4 +1,4 @@
-package br.com.fiap.budgetbuddy.validation;
+package jftaskmanagement.validation;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;

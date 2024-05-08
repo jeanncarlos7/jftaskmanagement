@@ -1,4 +1,4 @@
-package br.com.fiap.budgetbuddy.config;
+package jftaskmanagement.config;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -8,10 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
-import br.com.fiap.budgetbuddy.model.Categoria;
-import br.com.fiap.budgetbuddy.model.Movimentacao;
-import br.com.fiap.budgetbuddy.repository.CategoriaRepository;
-import br.com.fiap.budgetbuddy.repository.MovimentacaoRepository;
+import jftaskmanagement.model.Categoria;
+import jftaskmanagement.model.Movimentacao;
+import jftaskmanagement.repository.CategoriaRepository;
+import jftaskmanagement.repository.MovimentacaoRepository;
 
 @Configuration
 public class DatabaseSeeder implements CommandLineRunner {
@@ -76,7 +76,7 @@ public class DatabaseSeeder implements CommandLineRunner {
                                 .build(),
                         Movimentacao.builder()
                                 .id(6L)
-                                .descricao("Água")
+                                .descricao("Água")   
                                 .data(LocalDate.now().minusWeeks(1))
                                 .valor(new BigDecimal(50))
                                 .tipo("SAIDA")

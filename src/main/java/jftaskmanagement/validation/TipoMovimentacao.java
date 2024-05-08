@@ -1,4 +1,4 @@
-package br.com.fiap.budgetbuddy.validation;
+package jftaskmanagement.validation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

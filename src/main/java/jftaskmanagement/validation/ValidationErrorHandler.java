@@ -1,4 +1,4 @@
-package br.com.fiap.budgetbuddy.validation;
+package jftaskmanagement.validation;
 
 import static org.springframework.http.HttpStatus.BAD_REQUEST;
 

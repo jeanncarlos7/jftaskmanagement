@@ -1,4 +1,4 @@
-package br.com.fiap.budgetbuddy.model;
+package jftaskmanagement.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
-import br.com.fiap.budgetbuddy.validation.TipoMovimentacao;
+import jftaskmanagement.validation.TipoMovimentacao;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
